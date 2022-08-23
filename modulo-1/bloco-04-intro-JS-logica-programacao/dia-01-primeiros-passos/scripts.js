@@ -186,3 +186,78 @@ switch (aproRepro) {
     default:
         console.log ('Não se aplica')
 }
+
+//EXERCICIOS QUE EMGLOBAM TODOS OS ASSUNTOS VISTOS ATÉ AGORA
+
+//faça cinco porgramas, um para cada operação básica
+
+const a = 10;
+const b = 15;
+console.log (a + b);
+console.log (a - b);
+console.log (a * b)
+console.log (a / b);
+console.log (a % b); 
+
+//programa para retornar o maior de dois números
+
+const a = 10
+const b = 20
+if (a > b){
+    console.log ('a é maior que, b')
+}else{
+    console.log ('b, é maior que a')
+}
+
+//programa para retornar o maior de tres números
+
+const a = 45
+const b = 5
+const c = 52
+let maior ;
+
+if (a > b && a > c){
+    maior = a
+}else if (b > c){
+    maior = b
+}else{
+    maior = c
+}
+console.log (maior)
+
+//programa para identificar se os valores de três constantes formam um triângulo, caso algum valor seja negativo o programa deve retornar 'número inválido'.
+
+const a = 100
+const b = 30
+const c = 50
+let result;
+if (a <= 0 || b <= 0 || c <= 0){
+    console.log ('número inválido')
+}
+ else if (a + b + c === 180){
+    result = true
+    console.log (result)
+}else{
+    result = false;
+    console.log (result);
+}
+
+//Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+
+const a = 21
+const b = 81
+const c = 51
+let result;
+
+if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0){
+    result = true
+    console.log (result)
+}else{
+    result = false
+    console.log (result)
+}
+
+
+
+
+
