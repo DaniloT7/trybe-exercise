@@ -1,3 +1,25 @@
 h1{
     font-family: 'Montserrat Alternates', sans-serif;
+    color: #0a7e51;
+}
+#main-title{
+    color: #0a7e51;
+}
+p, ul{
+    color: #475550;
+    font-size: 16px;
+}
+.titulos{
+    font-family: Montserrat, sans-serif;
+    color: #11a36a;
+}
+.section-title{
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+}
+.testimonial-name{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600
 }
