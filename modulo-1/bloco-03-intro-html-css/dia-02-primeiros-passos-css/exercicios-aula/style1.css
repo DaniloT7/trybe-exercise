@@ -23,3 +23,9 @@ p, ul{
     line-height: 20px;
     font-weight: 600
 }
+.circle-pictures{
+    border-radius: 100%;
+}
+/*#goyas-circle{
+    border-radius: 400px;
+}*/
