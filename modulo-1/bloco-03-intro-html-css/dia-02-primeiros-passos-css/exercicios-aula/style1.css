@@ -26,6 +26,15 @@ p, ul{
 .circle-pictures{
     border-radius: 100%;
 }
+.button{
+    background-color: #11a36a;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    
+}
 /*#goyas-circle{
     border-radius: 400px;
 }*/
